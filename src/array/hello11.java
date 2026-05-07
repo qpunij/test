@@ -87,3 +87,4 @@ int sum = a+b;
 return false;
     }
 }
+//数组内存分了栈和堆，int arr[] = new int[10];  arr[]在栈中，new int[10]在堆中,int arr2 = arr;把数组arr的地址赋值给arr2，静态与动态数组都分了栈和堆储存
