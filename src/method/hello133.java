@@ -39,3 +39,4 @@ public class hello133 {
         return (int)(postage * 10);
     }
 }
+//方法在jvm的栈里面执行，从上到下执行，调用进栈，用完出栈;ctrl+alt+M 快速抽取方法
