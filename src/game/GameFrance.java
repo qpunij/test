@@ -75,6 +75,7 @@ this.getContentPane().removeAll();
 
     }
     this.getContentPane().repaint();
+    this.getContentPane().revalidate();
 
 }
     private void initjmenubar() {
