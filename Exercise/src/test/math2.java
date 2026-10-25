@@ -12,5 +12,7 @@ public class math2 {
                 System.out.println(i + " = " + bai + "³ + " + shi + "³ + " + ge + "³");
             }
         }
+        System.out.println(Runtime.getRuntime().availableProcessors());
+        System.out.println(Runtime.getRuntime().maxMemory());
     }
 }
