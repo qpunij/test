@@ -1,6 +1,12 @@
 package quick;
 
-public class Girl {
+import java.io.Serial;
+import java.io.Serializable;
+
+public class Girl implements Serializable {
+
+    @Serial
+    private static final long serialVersionUID = -7368690272090089828L;
     private String name;
     private  int age;
     private  double height;
